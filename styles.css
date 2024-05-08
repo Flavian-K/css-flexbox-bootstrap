@@ -1,0 +1,74 @@
+.bg-flav {
+  background-color: #ecf3ed;
+}
+.bg-imageflav {
+  background-image: url("falafelwrap.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+.hero-head {
+  position: absolute;
+  font-weight: 700;
+  font-size: 120px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.centered-btn {
+  background-color: #ecf3ed;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-head {
+    font-size: 80px;
+  }
+}
+.centered-btn:hover {
+  background-color: #c4c9c5;
+  color: white;
+}
+
+.text-color {
+  color: #8bb592;
+  line-height: 1.5;
+}
+
+/* .bg-imagebento {
+  background-image: url("HealthyBentoBox.jpg");
+} */
+.col {
+  border: 1px solid darkslategray;
+}
+
+.menu-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px solid rgb(5, 35, 5);
+  margin-bottom: 10px;
+}
+
+.p-description {
+  margin-bottom: 10px;
+  color: #526a56;
+  line-height: 1.5;
+}
+.price {
+  color: darkslategray;
+}
+
+.btn-custom-color {
+  background-color: #8bb592;
+  color: white;
+}
+.btn-contactcolor {
+  background-color: #8bb592;
+  color: white;
+}
+.text-customcolor {
+  color: #8bb592;
+}
